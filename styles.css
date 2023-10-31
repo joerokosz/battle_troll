@@ -1,0 +1,54 @@
+/* Battle Game Project 10/27/2023 */
+
+/* font-family: 'Coda', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive; */
+
+body {
+	background-image: url("forest.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #5B9BBF;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Eater', cursive;
+	color: lightblue;
+	font-size: 5em;
+	text-shadow: darkorange 2px 4px 2px, black -4px -2px 1px;
+}
+
+div#button {
+	background-color: darkorange;
+	font-size: 2.2em;
+	font-family: 'Gloria Hallelujah', cursive;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	box-shadow: lightblue 2px 2px 3px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+div#button:hover {
+	background-color: black;
+	color: darkorange;
+}
+
+h2#victory {
+	font-family: 'Coda', sans-serif;
+	font-size: 2.7em;
+	color: palegreen;
+	text-shadow: black 3px 3px 1px;
+}
+
+h2#defeat {
+	font-family: 'Freckle Face', cursive;
+	font-size: 2.9em;
+	color: red;
+	text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
